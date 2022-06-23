@@ -17,9 +17,9 @@ body {
   flex-direction: column;
   margin: 1rem;
 }
-header{
-    text-align: center;
-margin: 2rem 0;
+header {
+  text-align: center;
+  margin: 2rem 0;
 }
 
 .container {
@@ -27,35 +27,34 @@ margin: 2rem 0;
   text-align: center;
   border-radius: 10px;
   background-color: #ded6c9;
-
 }
 
-
-h1,h3 {
+h1,
+h3 {
   margin-bottom: 1rem;
 }
-h3{
-    margin-top: 1rem;
+h3 {
+  margin-top: 1rem;
 }
 .details {
   margin: 1rem;
 }
-.imade-div{
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 200px;
-    width: 360px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+.imade-div {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 360px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 p {
   margin-bottom: 1rem;
   text-align: start;
-font-weight: bold;
+  font-weight: bold;
 }
 button {
-  padding: .7rem 1rem;
+  padding: 0.7rem 1rem;
   border: 0;
   border-radius: 20px;
   margin: 1.5rem;
@@ -64,15 +63,12 @@ button {
   background-color: #56b6d6;
   cursor: pointer;
 }
-button:hover{
-  color: #56b6d6;  
+button:hover {
+  color: #56b6d6;
   background-color: rgb(39, 36, 36);
 }
-@media (min-width:70rem) {
-    header{
-        margin: .6rem 0;
-    }
- .container{
-    /* width: 700px; */
- }   
+@media (min-width: 70rem) {
+  header {
+    margin: 0.6rem 0;
+  }
 }
