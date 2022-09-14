@@ -24,8 +24,8 @@
 
 ### Links
 
-- Solution URL: (https://github.com/ibimina/travel-destination)
-- Live Site URL:(https://ibimina.github.io/travel-destination/)
+- Solution URL: (https://github.com/ibimina/random-country-selector)
+- Live Site URL:(https://ibimina.github.io/random-country-selector/)
 
 ## My process
 - import react from React,Component
@@ -44,7 +44,6 @@ this.setState({ data: randoCount });
 
 }
 ```
-
 
 ### Built with
 

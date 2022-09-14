@@ -4,12 +4,12 @@ class Main extends Component {
     state = {  } 
      
     render() { 
-      let sop = this.props.data.flag;
+      let flag = this.props.data.flag;
         return (
           <>
             <div
               className="imade-div"
-              style={{ backgroundImage: `url(${sop})` }}
+              style={{ backgroundImage: `url(${flag})` }}
             ></div>
             <h3>{this.props.data.name}</h3>
             <div className="details">
