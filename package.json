@@ -1,6 +1,6 @@
 {
-  "homepage": "https://ibimina.github.io/random-country-selector",
-  "name": "random-country-selector",
+  "homepage": "https://ibimina.github.io/random-country-generator",
+  "name": "random-country-generator",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
