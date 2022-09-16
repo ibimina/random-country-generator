@@ -13,10 +13,25 @@ class Main extends Component {
             ></div>
             <h3>{this.props.data.name}</h3>
             <div className="details">
-              <p>Capital: {this.props.data.capital}</p>
-              <p>Languages: {this.props.data.languages.toLocaleString()}</p>
-              <p>Population:{this.props.data.population.toLocaleString()}</p>
-              <p>Currency: {this.props.data.currency}</p>
+              <p className="title">
+                Capital: <span className="text">{this.props.data.capital}</span>{" "}
+              </p>
+              <p className="title">
+                Languages:{" "}
+                <span className="text">
+                  {this.props.data.languages.join(", ")}.
+                </span>
+              </p>
+              <p className="title">
+                Population:{" "}
+                <span className="text">
+                  {this.props.data.population.toLocaleString()}
+                </span>
+              </p>
+              <p className="title">
+                Currency:{" "}
+                <span className="text"> {this.props.data.currency}</span>
+              </p>
             </div>
           </>
         );

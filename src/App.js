@@ -4,13 +4,6 @@ import Header from "./Header";
 import Main from "./Main";
 import Button from "./Button";
 
-// console.log(data[249])
-// let countryLength = data.length - 1
-// let indexNo = (Math.random() * countryLength).toFixed(0)
-// console.log(indexNo)
-// console.log(data[indexNo])
-// let url = "https://restcountries.com/v2/all";
-
 class App extends Component {
   state = { data: data[0] };
 
@@ -24,7 +17,7 @@ class App extends Component {
     const data = this.state.data;
     const title = "Random Country Selector";
     const text = "Random  Country";
-    const subtitle = "Pick a Country For Your Next Holiday";
+    const subtitle = "Generate a Country For Your Next Holiday";
     return (
       <>
         <Header title={title} subtitle={subtitle} />
